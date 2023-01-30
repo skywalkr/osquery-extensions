@@ -58,8 +58,14 @@ func getVmState(vmName string, matches [][]string) string {
 func GenerateData(ctx context.Context, queryContext table.QueryContext) ([]map[string]string, error) {
 	var results []map[string]string
 
+	path, err := exec.LookPath("virsh")
+
+	if err != nil {
+		return nil, err
+	}
+
 	// Get a list and state of vm's
-	data, err := exec.Command("virsh", "list", "--all").Output()
+	data, err := exec.Command(path, "list", "--all").Output()
 
 	if err != nil {
 		return nil, err

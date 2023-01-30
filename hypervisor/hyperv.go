@@ -12,7 +12,13 @@ import (
 )
 
 func GenerateData(ctx context.Context, queryContext table.QueryContext) ([]map[string]string, error) {
-	out, err := exec.Command("powershell.exe", "get-vm | convertto-json").Output()
+	path, err := exec.LookPath("powershell")
+
+	if err != nil {
+		return nil, err
+	}
+
+	out, err := exec.Command(path, "get-vm | convertto-json").Output()
 
 	if err != nil {
 		return nil, err
