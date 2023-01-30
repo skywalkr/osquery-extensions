@@ -1,0 +1,318 @@
+[
+    {
+        "ConfigurationLocation":  "C:\\ProgramData\\Microsoft\\Windows\\Hyper-V",
+        "SmartPagingFileInUse":  false,
+        "SmartPagingFilePath":  "C:\\ProgramData\\Microsoft\\Windows\\Hyper-V",
+        "SnapshotFileLocation":  "C:\\ProgramData\\Microsoft\\Windows\\Hyper-V",
+        "AutomaticStartAction":  3,
+        "AutomaticStartDelay":  0,
+        "AutomaticStopAction":  3,
+        "AutomaticCriticalErrorAction":  1,
+        "AutomaticCriticalErrorActionTimeout":  30,
+        "AutomaticCheckpointsEnabled":  false,
+        "CPUUsage":  40,
+        "MemoryAssigned":  536870912,
+        "MemoryDemand":  0,
+        "MemoryStatus":  "",
+        "NumaAligned":  true,
+        "NumaNodesCount":  1,
+        "NumaSocketCount":  1,
+        "Heartbeat":  2,
+        "IntegrationServicesState":  "",
+        "IntegrationServicesVersion":  {
+                                           "Major":  0,
+                                           "Minor":  0,
+                                           "Build":  -1,
+                                           "Revision":  -1,
+                                           "MajorRevision":  -1,
+                                           "MinorRevision":  -1
+                                       },
+        "Uptime":  {
+                       "Ticks":  943120000,
+                       "Days":  0,
+                       "Hours":  0,
+                       "Milliseconds":  312,
+                       "Minutes":  1,
+                       "Seconds":  34,
+                       "TotalDays":  0.001091574074074074,
+                       "TotalHours":  0.026197777777777778,
+                       "TotalMilliseconds":  94312,
+                       "TotalMinutes":  1.5718666666666667,
+                       "TotalSeconds":  94.312
+                   },
+        "OperationalStatus":  [
+                                  2
+                              ],
+        "PrimaryOperationalStatus":  2,
+        "SecondaryOperationalStatus":  null,
+        "StatusDescriptions":  [
+                                   "Operating normally"
+                               ],
+        "PrimaryStatusDescription":  "Operating normally",
+        "SecondaryStatusDescription":  null,
+        "Status":  "Operating normally",
+        "ReplicationHealth":  0,
+        "ReplicationMode":  0,
+        "ReplicationState":  0,
+        "ResourceMeteringEnabled":  false,
+        "CheckpointType":  3,
+        "EnhancedSessionTransportType":  0,
+        "Groups":  [
+
+                   ],
+        "Version":  "10.0",
+        "VirtualMachineType":  3,
+        "VirtualMachineSubType":  1,
+        "Notes":  "",
+        "State":  2,
+        "ComPort1":  {
+                         "Path":  "",
+                         "DebuggerMode":  0,
+                         "Name":  "COM 1",
+                         "Id":  "Microsoft:F2B80BD6-15B5-434E-B360-C99D6612EFFA\\8E3A359F-559A-4B6A-98A9-1690A6100ED7\\0",
+                         "VMId":  "f2b80bd6-15b5-434e-b360-c99d6612effa",
+                         "VMName":  "New Virtual Machine",
+                         "VMSnapshotId":  "00000000-0000-0000-0000-000000000000",
+                         "VMSnapshotName":  "",
+                         "CimSession":  "CimSession: .",
+                         "ComputerName":  "TEST-VM-002",
+                         "IsDeleted":  false
+                     },
+        "ComPort2":  {
+                         "Path":  "",
+                         "DebuggerMode":  1,
+                         "Name":  "COM 2",
+                         "Id":  "Microsoft:F2B80BD6-15B5-434E-B360-C99D6612EFFA\\8E3A359F-559A-4B6A-98A9-1690A6100ED7\\1",
+                         "VMId":  "f2b80bd6-15b5-434e-b360-c99d6612effa",
+                         "VMName":  "New Virtual Machine",
+                         "VMSnapshotId":  "00000000-0000-0000-0000-000000000000",
+                         "VMSnapshotName":  "",
+                         "CimSession":  "CimSession: .",
+                         "ComputerName":  "TEST-VM-002",
+                         "IsDeleted":  false
+                     },
+        "DVDDrives":  [
+                          "DvdDrive (Name = \u0027DVD Drive on IDE controller number 1 at location 0\u0027, VMName = \u0027New Virtual Machine\u0027) [Id = \u0027Microsoft:F2B80BD6-15B5-434E-B360-C99D6612EFFA\\83F8638B-8DCA-4152-9EDA-2CA8B33039B4\\1\\0\\D\u0027, VMId = \u0027f2b80bd6-15b5-434e-b360-c99d6612effa\u0027]"
+                      ],
+        "FibreChannelHostBusAdapters":  [
+
+                                        ],
+        "FloppyDrive":  {
+                            "Path":  null,
+                            "PoolName":  null,
+                            "Name":  "Diskette Drive",
+                            "Id":  "Microsoft:F2B80BD6-15B5-434E-B360-C99D6612EFFA\\8F0D2762-0B00-4E04-AF4F-19010527CB93\\0\\0\\D",
+                            "VMId":  "f2b80bd6-15b5-434e-b360-c99d6612effa",
+                            "VMName":  "New Virtual Machine",
+                            "VMSnapshotId":  "00000000-0000-0000-0000-000000000000",
+                            "VMSnapshotName":  "",
+                            "CimSession":  "CimSession: .",
+                            "ComputerName":  "TEST-VM-002",
+                            "IsDeleted":  false
+                        },
+        "HardDrives":  [
+                           "HardDiskDrive (Name = \u0027Hard Drive on IDE controller number 0 at location 0\u0027, VMName = \u0027New Virtual Machine\u0027) [Id = \u0027Microsoft:F2B80BD6-15B5-434E-B360-C99D6612EFFA\\83F8638B-8DCA-4152-9EDA-2CA8B33039B4\\0\\0\\D\u0027, VMId = \u0027f2b80bd6-15b5-434e-b360-c99d6612effa\u0027]"
+                       ],
+        "RemoteFxAdapter":  null,
+        "VMIntegrationService":  [
+                                     "GuestServiceInterfaceComponent (Name = \u0027Guest Service Interface\u0027, VMName = \u0027New Virtual Machine\u0027) [Id = \u0027Microsoft:F2B80BD6-15B5-434E-B360-C99D6612EFFA\\6C09BB55-D683-4DA0-8931-C9BF705F6480\u0027, VMId = \u0027f2b80bd6-15b5-434e-b360-c99d6612effa\u0027]",
+                                     "VMIntegrationComponent (Name = \u0027Heartbeat\u0027, VMName = \u0027New Virtual Machine\u0027) [Id = \u0027Microsoft:F2B80BD6-15B5-434E-B360-C99D6612EFFA\\84EAAE65-2F2E-45F5-9BB5-0E857DC8EB47\u0027, VMId = \u0027f2b80bd6-15b5-434e-b360-c99d6612effa\u0027]",
+                                     "DataExchangeComponent (Name = \u0027Key-Value Pair Exchange\u0027, VMName = \u0027New Virtual Machine\u0027) [Id = \u0027Microsoft:F2B80BD6-15B5-434E-B360-C99D6612EFFA\\2A34B1C2-FD73-4043-8A5B-DD2159BC743F\u0027, VMId = \u0027f2b80bd6-15b5-434e-b360-c99d6612effa\u0027]",
+                                     "ShutdownComponent (Name = \u0027Shutdown\u0027, VMName = \u0027New Virtual Machine\u0027) [Id = \u0027Microsoft:F2B80BD6-15B5-434E-B360-C99D6612EFFA\\9F8233AC-BE49-4C79-8EE3-E7E1985B2077\u0027, VMId = \u0027f2b80bd6-15b5-434e-b360-c99d6612effa\u0027]",
+                                     "VMIntegrationComponent (Name = \u0027Time Synchronization\u0027, VMName = \u0027New Virtual Machine\u0027) [Id = \u0027Microsoft:F2B80BD6-15B5-434E-B360-C99D6612EFFA\\2497F4DE-E9FA-4204-80E4-4B75C46419C0\u0027, VMId = \u0027f2b80bd6-15b5-434e-b360-c99d6612effa\u0027]",
+                                     "VMIntegrationComponent (Name = \u0027VSS\u0027, VMName = \u0027New Virtual Machine\u0027) [Id = \u0027Microsoft:F2B80BD6-15B5-434E-B360-C99D6612EFFA\\5CED1297-4598-4915-A5FC-AD21BB4D02A4\u0027, VMId = \u0027f2b80bd6-15b5-434e-b360-c99d6612effa\u0027]"
+                                 ],
+        "DynamicMemoryEnabled":  false,
+        "MemoryMaximum":  1099511627776,
+        "MemoryMinimum":  536870912,
+        "MemoryStartup":  536870912,
+        "ProcessorCount":  1,
+        "BatteryPassthroughEnabled":  false,
+        "Generation":  1,
+        "IsClustered":  false,
+        "ParentSnapshotId":  null,
+        "ParentSnapshotName":  null,
+        "Path":  "C:\\ProgramData\\Microsoft\\Windows\\Hyper-V",
+        "SizeOfSystemFiles":  81920,
+        "GuestControlledCacheTypes":  false,
+        "LowMemoryMappedIoSpace":  134217728,
+        "HighMemoryMappedIoSpace":  536870912,
+        "HighMemoryMappedIoBaseAddress":  68182605824,
+        "LockOnDisconnect":  1,
+        "CreationTime":  "\/Date(1674352981191)\/",
+        "Id":  "f2b80bd6-15b5-434e-b360-c99d6612effa",
+        "Name":  "New Virtual Machine",
+        "NetworkAdapters":  [
+                                "VMNetworkAdapter (Name = \u0027Network Adapter\u0027, VMName = \u0027New Virtual Machine\u0027) [VMId = \u0027f2b80bd6-15b5-434e-b360-c99d6612effa\u0027]"
+                            ],
+        "CimSession":  {
+                           "ComputerName":  null,
+                           "InstanceId":  "19185192-2f2a-49c3-879d-fff98a0a200c"
+                       },
+        "ComputerName":  "TEST-VM-002",
+        "IsDeleted":  false,
+        "ParentCheckpointId":  null,
+        "ParentCheckpointName":  null,
+        "VMName":  "New Virtual Machine",
+        "VMId":  "f2b80bd6-15b5-434e-b360-c99d6612effa",
+        "CheckpointFileLocation":  "C:\\ProgramData\\Microsoft\\Windows\\Hyper-V"
+    },
+    {
+        "ConfigurationLocation":  "C:\\ProgramData\\Microsoft\\Windows\\Hyper-V",
+        "SmartPagingFileInUse":  false,
+        "SmartPagingFilePath":  "C:\\ProgramData\\Microsoft\\Windows\\Hyper-V",
+        "SnapshotFileLocation":  "C:\\ProgramData\\Microsoft\\Windows\\Hyper-V",
+        "AutomaticStartAction":  3,
+        "AutomaticStartDelay":  0,
+        "AutomaticStopAction":  3,
+        "AutomaticCriticalErrorAction":  1,
+        "AutomaticCriticalErrorActionTimeout":  30,
+        "AutomaticCheckpointsEnabled":  false,
+        "CPUUsage":  0,
+        "MemoryAssigned":  0,
+        "MemoryDemand":  0,
+        "MemoryStatus":  "",
+        "NumaAligned":  null,
+        "NumaNodesCount":  1,
+        "NumaSocketCount":  1,
+        "Heartbeat":  null,
+        "IntegrationServicesState":  "",
+        "IntegrationServicesVersion":  {
+                                           "Major":  0,
+                                           "Minor":  0,
+                                           "Build":  -1,
+                                           "Revision":  -1,
+                                           "MajorRevision":  -1,
+                                           "MinorRevision":  -1
+                                       },
+        "Uptime":  {
+                       "Ticks":  0,
+                       "Days":  0,
+                       "Hours":  0,
+                       "Milliseconds":  0,
+                       "Minutes":  0,
+                       "Seconds":  0,
+                       "TotalDays":  0,
+                       "TotalHours":  0,
+                       "TotalMilliseconds":  0,
+                       "TotalMinutes":  0,
+                       "TotalSeconds":  0
+                   },
+        "OperationalStatus":  [
+                                  2
+                              ],
+        "PrimaryOperationalStatus":  2,
+        "SecondaryOperationalStatus":  null,
+        "StatusDescriptions":  [
+                                   "Operating normally"
+                               ],
+        "PrimaryStatusDescription":  "Operating normally",
+        "SecondaryStatusDescription":  null,
+        "Status":  "Operating normally",
+        "ReplicationHealth":  0,
+        "ReplicationMode":  0,
+        "ReplicationState":  0,
+        "ResourceMeteringEnabled":  false,
+        "CheckpointType":  3,
+        "EnhancedSessionTransportType":  0,
+        "Groups":  [
+
+                   ],
+        "Version":  "10.0",
+        "VirtualMachineType":  3,
+        "VirtualMachineSubType":  1,
+        "Notes":  "",
+        "State":  3,
+        "ComPort1":  {
+                         "Path":  "",
+                         "DebuggerMode":  0,
+                         "Name":  "COM 1",
+                         "Id":  "Microsoft:EB8E33C5-7515-4D10-9271-67D9F0A3A05E\\8E3A359F-559A-4B6A-98A9-1690A6100ED7\\0",
+                         "VMId":  "eb8e33c5-7515-4d10-9271-67d9f0a3a05e",
+                         "VMName":  "New Virtual Machine2",
+                         "VMSnapshotId":  "00000000-0000-0000-0000-000000000000",
+                         "VMSnapshotName":  "",
+                         "CimSession":  "CimSession: .",
+                         "ComputerName":  "TEST-VM-002",
+                         "IsDeleted":  false
+                     },
+        "ComPort2":  {
+                         "Path":  "",
+                         "DebuggerMode":  1,
+                         "Name":  "COM 2",
+                         "Id":  "Microsoft:EB8E33C5-7515-4D10-9271-67D9F0A3A05E\\8E3A359F-559A-4B6A-98A9-1690A6100ED7\\1",
+                         "VMId":  "eb8e33c5-7515-4d10-9271-67d9f0a3a05e",
+                         "VMName":  "New Virtual Machine2",
+                         "VMSnapshotId":  "00000000-0000-0000-0000-000000000000",
+                         "VMSnapshotName":  "",
+                         "CimSession":  "CimSession: .",
+                         "ComputerName":  "TEST-VM-002",
+                         "IsDeleted":  false
+                     },
+        "DVDDrives":  [
+                          "DvdDrive (Name = \u0027DVD Drive on IDE controller number 1 at location 0\u0027, VMName = \u0027New Virtual Machine2\u0027) [Id = \u0027Microsoft:EB8E33C5-7515-4D10-9271-67D9F0A3A05E\\83F8638B-8DCA-4152-9EDA-2CA8B33039B4\\1\\0\\D\u0027, VMId = \u0027eb8e33c5-7515-4d10-9271-67d9f0a3a05e\u0027]"
+                      ],
+        "FibreChannelHostBusAdapters":  [
+
+                                        ],
+        "FloppyDrive":  {
+                            "Path":  null,
+                            "PoolName":  null,
+                            "Name":  "Diskette Drive",
+                            "Id":  "Microsoft:EB8E33C5-7515-4D10-9271-67D9F0A3A05E\\8F0D2762-0B00-4E04-AF4F-19010527CB93\\0\\0\\D",
+                            "VMId":  "eb8e33c5-7515-4d10-9271-67d9f0a3a05e",
+                            "VMName":  "New Virtual Machine2",
+                            "VMSnapshotId":  "00000000-0000-0000-0000-000000000000",
+                            "VMSnapshotName":  "",
+                            "CimSession":  "CimSession: .",
+                            "ComputerName":  "TEST-VM-002",
+                            "IsDeleted":  false
+                        },
+        "HardDrives":  [
+                           "HardDiskDrive (Name = \u0027Hard Drive on IDE controller number 0 at location 0\u0027, VMName = \u0027New Virtual Machine2\u0027) [Id = \u0027Microsoft:EB8E33C5-7515-4D10-9271-67D9F0A3A05E\\83F8638B-8DCA-4152-9EDA-2CA8B33039B4\\0\\0\\D\u0027, VMId = \u0027eb8e33c5-7515-4d10-9271-67d9f0a3a05e\u0027]"
+                       ],
+        "RemoteFxAdapter":  null,
+        "VMIntegrationService":  [
+                                     "GuestServiceInterfaceComponent (Name = \u0027Guest Service Interface\u0027, VMName = \u0027New Virtual Machine2\u0027) [Id = \u0027Microsoft:EB8E33C5-7515-4D10-9271-67D9F0A3A05E\\6C09BB55-D683-4DA0-8931-C9BF705F6480\u0027, VMId = \u0027eb8e33c5-7515-4d10-9271-67d9f0a3a05e\u0027]",
+                                     "VMIntegrationComponent (Name = \u0027Heartbeat\u0027, VMName = \u0027New Virtual Machine2\u0027) [Id = \u0027Microsoft:EB8E33C5-7515-4D10-9271-67D9F0A3A05E\\84EAAE65-2F2E-45F5-9BB5-0E857DC8EB47\u0027, VMId = \u0027eb8e33c5-7515-4d10-9271-67d9f0a3a05e\u0027]",
+                                     "DataExchangeComponent (Name = \u0027Key-Value Pair Exchange\u0027, VMName = \u0027New Virtual Machine2\u0027) [Id = \u0027Microsoft:EB8E33C5-7515-4D10-9271-67D9F0A3A05E\\2A34B1C2-FD73-4043-8A5B-DD2159BC743F\u0027, VMId = \u0027eb8e33c5-7515-4d10-9271-67d9f0a3a05e\u0027]",
+                                     "ShutdownComponent (Name = \u0027Shutdown\u0027, VMName = \u0027New Virtual Machine2\u0027) [Id = \u0027Microsoft:EB8E33C5-7515-4D10-9271-67D9F0A3A05E\\9F8233AC-BE49-4C79-8EE3-E7E1985B2077\u0027, VMId = \u0027eb8e33c5-7515-4d10-9271-67d9f0a3a05e\u0027]",
+                                     "VMIntegrationComponent (Name = \u0027Time Synchronization\u0027, VMName = \u0027New Virtual Machine2\u0027) [Id = \u0027Microsoft:EB8E33C5-7515-4D10-9271-67D9F0A3A05E\\2497F4DE-E9FA-4204-80E4-4B75C46419C0\u0027, VMId = \u0027eb8e33c5-7515-4d10-9271-67d9f0a3a05e\u0027]",
+                                     "VMIntegrationComponent (Name = \u0027VSS\u0027, VMName = \u0027New Virtual Machine2\u0027) [Id = \u0027Microsoft:EB8E33C5-7515-4D10-9271-67D9F0A3A05E\\5CED1297-4598-4915-A5FC-AD21BB4D02A4\u0027, VMId = \u0027eb8e33c5-7515-4d10-9271-67d9f0a3a05e\u0027]"
+                                 ],
+        "DynamicMemoryEnabled":  false,
+        "MemoryMaximum":  1099511627776,
+        "MemoryMinimum":  268435456,
+        "MemoryStartup":  268435456,
+        "ProcessorCount":  1,
+        "BatteryPassthroughEnabled":  false,
+        "Generation":  1,
+        "IsClustered":  false,
+        "ParentSnapshotId":  null,
+        "ParentSnapshotName":  null,
+        "Path":  "C:\\ProgramData\\Microsoft\\Windows\\Hyper-V",
+        "SizeOfSystemFiles":  81920,
+        "GuestControlledCacheTypes":  false,
+        "LowMemoryMappedIoSpace":  134217728,
+        "HighMemoryMappedIoSpace":  536870912,
+        "HighMemoryMappedIoBaseAddress":  68182605824,
+        "LockOnDisconnect":  1,
+        "CreationTime":  "\/Date(1674354000756)\/",
+        "Id":  "eb8e33c5-7515-4d10-9271-67d9f0a3a05e",
+        "Name":  "New Virtual Machine2",
+        "NetworkAdapters":  [
+                                "VMNetworkAdapter (Name = \u0027Network Adapter\u0027, VMName = \u0027New Virtual Machine2\u0027) [VMId = \u0027eb8e33c5-7515-4d10-9271-67d9f0a3a05e\u0027]"
+                            ],
+        "CimSession":  {
+                           "ComputerName":  null,
+                           "InstanceId":  "19185192-2f2a-49c3-879d-fff98a0a200c"
+                       },
+        "ComputerName":  "TEST-VM-002",
+        "IsDeleted":  false,
+        "ParentCheckpointId":  null,
+        "ParentCheckpointName":  null,
+        "VMName":  "New Virtual Machine2",
+        "VMId":  "eb8e33c5-7515-4d10-9271-67d9f0a3a05e",
+        "CheckpointFileLocation":  "C:\\ProgramData\\Microsoft\\Windows\\Hyper-V"
+    }
+]
