@@ -1,6 +1,6 @@
 //go:build windows
 
-package hypervisor
+package virtualization
 
 import (
 	"encoding/json"

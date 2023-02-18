@@ -4,7 +4,8 @@ import (
 	"flag"
 	"log"
 	"os"
-	"osquery-extensions/hypervisor"
+	"osquery-extensions/cmdb"
+	"osquery-extensions/virtualization"
 
 	"github.com/osquery/osquery-go"
 	"github.com/osquery/osquery-go/plugin/table"
@@ -12,8 +13,8 @@ import (
 
 func main() {
 	socket := flag.String("socket", "", "Path to osquery socket file")
-	_ = flag.Int("interval", 0, "")
-	_ = flag.Int("timeout", 0, "")
+	_ = flag.Int("interval", 0, "Delay between connectivity checks")
+	_ = flag.Int("timeout", 0, "Timeout for autoloaded extension")
 	_ = flag.Bool("verbose", false, "")
 	flag.Parse()
 
@@ -26,7 +27,8 @@ func main() {
 		log.Fatalf("Error creating extension: %s\n", err)
 	}
 
-	server.RegisterPlugin(table.NewPlugin("virtual_machines", hypervisor.TableColumns(), hypervisor.GenerateData))
+	server.RegisterPlugin(table.NewPlugin("ci_info", cmdb.TableColumns(), cmdb.GenerateData))
+	server.RegisterPlugin(table.NewPlugin("virtual_machines", virtualization.TableColumns(), virtualization.GenerateData))
 
 	if err := server.Run(); err != nil {
 		log.Fatalln(err)

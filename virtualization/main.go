@@ -1,4 +1,4 @@
-package hypervisor
+package virtualization
 
 import "github.com/osquery/osquery-go/plugin/table"
 

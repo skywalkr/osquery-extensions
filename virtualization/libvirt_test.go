@@ -1,6 +1,6 @@
 //go:build linux
 
-package hypervisor
+package virtualization
 
 import (
 	"encoding/xml"
