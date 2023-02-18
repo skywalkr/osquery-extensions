@@ -6,23 +6,39 @@ import (
 	"os"
 	"osquery-extensions/cmdb"
 	"osquery-extensions/virtualization"
+	"time"
 
 	"github.com/osquery/osquery-go"
 	"github.com/osquery/osquery-go/plugin/table"
 )
 
+var (
+	socket   = flag.String("socket", "", "Path to osquery socket file")
+	timeout  = flag.Int("timeout", 3, "Seconds to wait for autoloaded extensions")
+	interval = flag.Int("interval", 3, "Seconds delay between connectivity checks")
+	_        = flag.Bool("verbose", false, "")
+)
+
 func main() {
-	socket := flag.String("socket", "", "Path to osquery socket file")
-	_ = flag.Int("interval", 0, "Delay between connectivity checks")
-	_ = flag.Int("timeout", 0, "Timeout for autoloaded extension")
-	_ = flag.Bool("verbose", false, "")
 	flag.Parse()
 
 	if *socket == "" {
 		log.Fatalf(`Usage: %s --socket SOCKET_PATH`, os.Args[0])
 	}
+	serverTimeout := osquery.ServerTimeout(
+		time.Second * time.Duration(*timeout),
+	)
+	serverPingInterval := osquery.ServerPingInterval(
+		time.Second * time.Duration(*interval),
+	)
 
-	server, err := osquery.NewExtensionManagerServer("osquery-extensions", *socket)
+	server, err := osquery.NewExtensionManagerServer(
+		"osquery-extensions",
+		*socket,
+		serverTimeout,
+		serverPingInterval,
+	)
+
 	if err != nil {
 		log.Fatalf("Error creating extension: %s\n", err)
 	}

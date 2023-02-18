@@ -11,7 +11,9 @@ import (
 	"github.com/osquery/osquery-go/plugin/table"
 )
 
-var re = regexp.MustCompile(`(?m)^([_A-Z]+)=(.*)$`)
+var (
+	re = regexp.MustCompile(`(?m)^([_A-Z]+)=(.*)$`)
+)
 
 func parseFile(filePath string) (map[string]string, error) {
 	data, err := os.ReadFile(filePath)
@@ -20,7 +22,7 @@ func parseFile(filePath string) (map[string]string, error) {
 		return nil, err
 	}
 
-	result := make(map[string]string)
+	result := map[string]string{"path": filePath}
 	matches := re.FindAllStringSubmatch(string(data), -1)
 
 	for _, match := range matches {
@@ -32,10 +34,21 @@ func parseFile(filePath string) (map[string]string, error) {
 }
 
 func GenerateData(ctx context.Context, queryContext table.QueryContext) ([]map[string]string, error) {
-	exPath, _ := os.Executable()
+	var filePath string
 
-	// Move this to a conditional path in the future via where clause
-	result, err := parseFile(path.Join(filepath.Dir(exPath), "osquery.meta"))
+	if len(queryContext.Constraints["path"].Constraints) > 0 {
+		filePath = queryContext.Constraints["path"].Constraints[0].Expression
+	} else {
+		exPath, err := os.Executable()
+
+		if err != nil {
+			return nil, err
+		}
+
+		filePath, _ = filepath.Abs(strings.TrimSuffix(filepath.Base(exPath), path.Ext(exPath)) + ".dat")
+	}
+
+	result, err := parseFile(filePath)
 
 	if err != nil {
 		return nil, err
@@ -47,6 +60,7 @@ func GenerateData(ctx context.Context, queryContext table.QueryContext) ([]map[s
 func TableColumns() []table.ColumnDefinition {
 	return []table.ColumnDefinition{
 		table.TextColumn("name"),
+		table.TextColumn("path"),
 		table.TextColumn("used_for"),
 		table.TextColumn("cmdb_group"),
 		table.TextColumn("managedby_group"),
