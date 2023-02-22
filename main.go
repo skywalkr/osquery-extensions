@@ -5,6 +5,7 @@ import (
 	"log"
 	"os"
 	"osquery-extensions/cmdb"
+	"osquery-extensions/driveinfo"
 	"osquery-extensions/virtualization"
 	"time"
 
@@ -44,6 +45,7 @@ func main() {
 	}
 
 	server.RegisterPlugin(table.NewPlugin("ci_info", cmdb.TableColumns(), cmdb.GenerateData))
+	server.RegisterPlugin(table.NewPlugin("disk_information", driveinfo.TableColumns(), driveinfo.GenerateData))
 	server.RegisterPlugin(table.NewPlugin("virtual_machines", virtualization.TableColumns(), virtualization.GenerateData))
 
 	if err := server.Run(); err != nil {

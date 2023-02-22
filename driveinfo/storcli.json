@@ -1,0 +1,1104 @@
+{
+"Controllers":[
+{
+	"Command Status" : {
+		"Controller" : 0,
+		"Status" : "Success",
+		"Description" : "Show Drive Information Succeeded."
+	},
+	"Response Data" : {
+		"Drive /c0/e252/s0" : [
+			{
+				"EID:Slt" : "252:0",
+				"DID" : 2,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "446.625 GB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "HFS480G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s0 - Detailed Information" : {
+			"Drive /c0/e252/s0 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 47C (116.60 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e252/s0 Device attributes" : {
+				"SN" : "EDB1N4843I0101C5H",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "HFS480G3H2X069N",
+				"NAND Vendor" : "NA",
+				"WWN" : "5ace42e025467eb9",
+				"Firmware Revision" : "    DZ02",
+				"Raw size" : "447.130 GB [0x37e436b0 Sectors]",
+				"Coerced size" : "446.625 GB [0x37d40000 Sectors]",
+				"Non Coerced size" : "446.630 GB [0x37d436b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 "
+			},
+			"Drive /c0/e252/s0 Policies/Settings" : {
+				"Drive position" : "DriveGroup:0, Span:0, Row:0",
+				"Enclosure position" : 0,
+				"Connected Port Number" : "11(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x3f4ee080352e390f"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 45 20 42 44 4e 31 38 34 33 34 30 49 30 31 43 31 48 35 00 00 00 00 00 00 20 20 20 20 5a 44 32 30 46 48 34 53 30 38 33 47 32 48 30 58 39 36 20 4e 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 06 00 ff 3f 10 00 3f 00 10 fc fb 00 01 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e252/s1" : [
+			{
+				"EID:Slt" : "252:1",
+				"DID" : 3,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "446.625 GB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "HFS480G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s1 - Detailed Information" : {
+			"Drive /c0/e252/s1 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 42C (107.60 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e252/s1 Device attributes" : {
+				"SN" : "EDB1N4843I2301A61",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "HFS480G3H2X069N",
+				"NAND Vendor" : "NA",
+				"WWN" : "5ace42e025462759",
+				"Firmware Revision" : "    DZ02",
+				"Raw size" : "447.130 GB [0x37e436b0 Sectors]",
+				"Coerced size" : "446.625 GB [0x37d40000 Sectors]",
+				"Non Coerced size" : "446.630 GB [0x37d436b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 "
+			},
+			"Drive /c0/e252/s1 Policies/Settings" : {
+				"Drive position" : "DriveGroup:0, Span:0, Row:1",
+				"Enclosure position" : 0,
+				"Connected Port Number" : "10(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x3f4ee080352e390e"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 45 20 42 44 4e 31 38 34 33 34 32 49 30 33 41 31 31 36 00 00 00 00 00 00 20 20 20 20 5a 44 32 30 46 48 34 53 30 38 33 47 32 48 30 58 39 36 20 4e 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 06 00 ff 3f 10 00 3f 00 10 fc fb 00 01 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e252/s2" : [
+			{
+				"EID:Slt" : "252:2",
+				"DID" : 4,
+				"State" : "Onln",
+				"DG" : 2,
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "HFS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s2 - Detailed Information" : {
+			"Drive /c0/e252/s2 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 40C (104.00 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e252/s2 Device attributes" : {
+				"SN" : "ASB1N5784I0201J36",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "HFS3T8G3H2X069N",
+				"NAND Vendor" : "NA",
+				"WWN" : "5ace42e02547746c",
+				"Firmware Revision" : "    DZ02",
+				"Raw size" : "3.492 TB [0x1bf1f72b0 Sectors]",
+				"Coerced size" : "3.492 TB [0x1bf0c0000 Sectors]",
+				"Non Coerced size" : "3.492 TB [0x1bf0f72b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 "
+			},
+			"Drive /c0/e252/s2 Policies/Settings" : {
+				"Drive position" : "DriveGroup:2, Span:0, Row:0",
+				"Enclosure position" : 0,
+				"Connected Port Number" : "9(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x3f4ee080352e390d"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 41 20 42 53 4e 31 37 35 34 38 30 49 30 32 4a 31 36 33 00 00 00 00 00 00 20 20 20 20 5a 44 32 30 46 48 33 53 38 54 33 47 32 48 30 58 39 36 20 4e 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 06 00 ff 3f 10 00 3f 00 10 fc fb 00 01 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e252/s3" : [
+			{
+				"EID:Slt" : "252:3",
+				"DID" : 5,
+				"State" : "Onln",
+				"DG" : 2,
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "HFS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s3 - Detailed Information" : {
+			"Drive /c0/e252/s3 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 39C (102.20 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e252/s3 Device attributes" : {
+				"SN" : "ASB1N5784I0201J38",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "HFS3T8G3H2X069N",
+				"NAND Vendor" : "NA",
+				"WWN" : "5ace42e02547746e",
+				"Firmware Revision" : "    DZ02",
+				"Raw size" : "3.492 TB [0x1bf1f72b0 Sectors]",
+				"Coerced size" : "3.492 TB [0x1bf0c0000 Sectors]",
+				"Non Coerced size" : "3.492 TB [0x1bf0f72b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 "
+			},
+			"Drive /c0/e252/s3 Policies/Settings" : {
+				"Drive position" : "DriveGroup:2, Span:0, Row:1",
+				"Enclosure position" : 0,
+				"Connected Port Number" : "8(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x3f4ee080352e390c"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 41 20 42 53 4e 31 37 35 34 38 30 49 30 32 4a 31 38 33 00 00 00 00 00 00 20 20 20 20 5a 44 32 30 46 48 33 53 38 54 33 47 32 48 30 58 39 36 20 4e 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 06 00 ff 3f 10 00 3f 00 10 fc fb 00 01 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e252/s4" : [
+			{
+				"EID:Slt" : "252:4",
+				"DID" : 8,
+				"State" : "Onln",
+				"DG" : 2,
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "HFS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s4 - Detailed Information" : {
+			"Drive /c0/e252/s4 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 38C (100.40 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e252/s4 Device attributes" : {
+				"SN" : "KDB1N4460I0601C0A",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "HFS3T8G3H2X069N",
+				"NAND Vendor" : "NA",
+				"WWN" : "5ace42e0254676ef",
+				"Firmware Revision" : "    DZ02",
+				"Raw size" : "3.492 TB [0x1bf1f72b0 Sectors]",
+				"Coerced size" : "3.492 TB [0x1bf0c0000 Sectors]",
+				"Non Coerced size" : "3.492 TB [0x1bf0f72b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 "
+			},
+			"Drive /c0/e252/s4 Policies/Settings" : {
+				"Drive position" : "DriveGroup:2, Span:0, Row:2",
+				"Enclosure position" : 0,
+				"Connected Port Number" : "15(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x3f4ee080352e390b"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 4b 20 42 44 4e 31 34 34 30 36 30 49 30 36 43 31 41 30 00 00 00 00 00 00 20 20 20 20 5a 44 32 30 46 48 33 53 38 54 33 47 32 48 30 58 39 36 20 4e 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 06 00 ff 3f 10 00 3f 00 10 fc fb 00 01 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e252/s5" : [
+			{
+				"EID:Slt" : "252:5",
+				"DID" : 7,
+				"State" : "Onln",
+				"DG" : 2,
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "HFS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s5 - Detailed Information" : {
+			"Drive /c0/e252/s5 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 38C (100.40 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e252/s5 Device attributes" : {
+				"SN" : "ASB1N5784I0201J39",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "HFS3T8G3H2X069N",
+				"NAND Vendor" : "NA",
+				"WWN" : "5ace42e02547746f",
+				"Firmware Revision" : "    DZ02",
+				"Raw size" : "3.492 TB [0x1bf1f72b0 Sectors]",
+				"Coerced size" : "3.492 TB [0x1bf0c0000 Sectors]",
+				"Non Coerced size" : "3.492 TB [0x1bf0f72b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 "
+			},
+			"Drive /c0/e252/s5 Policies/Settings" : {
+				"Drive position" : "DriveGroup:2, Span:0, Row:3",
+				"Enclosure position" : 0,
+				"Connected Port Number" : "14(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x3f4ee080352e390a"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 41 20 42 53 4e 31 37 35 34 38 30 49 30 32 4a 31 39 33 00 00 00 00 00 00 20 20 20 20 5a 44 32 30 46 48 33 53 38 54 33 47 32 48 30 58 39 36 20 4e 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 06 00 ff 3f 10 00 3f 00 10 fc fb 00 01 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e252/s6" : [
+			{
+				"EID:Slt" : "252:6",
+				"DID" : 6,
+				"State" : "Onln",
+				"DG" : 2,
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "HFS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s6 - Detailed Information" : {
+			"Drive /c0/e252/s6 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 38C (100.40 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e252/s6 Device attributes" : {
+				"SN" : "ASB1N5784I0201J37",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "HFS3T8G3H2X069N",
+				"NAND Vendor" : "NA",
+				"WWN" : "5ace42e02547746d",
+				"Firmware Revision" : "    DZ02",
+				"Raw size" : "3.492 TB [0x1bf1f72b0 Sectors]",
+				"Coerced size" : "3.492 TB [0x1bf0c0000 Sectors]",
+				"Non Coerced size" : "3.492 TB [0x1bf0f72b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 "
+			},
+			"Drive /c0/e252/s6 Policies/Settings" : {
+				"Drive position" : "DriveGroup:2, Span:0, Row:4",
+				"Enclosure position" : 0,
+				"Connected Port Number" : "13(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x3f4ee080352e3909"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 41 20 42 53 4e 31 37 35 34 38 30 49 30 32 4a 31 37 33 00 00 00 00 00 00 20 20 20 20 5a 44 32 30 46 48 33 53 38 54 33 47 32 48 30 58 39 36 20 4e 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 06 00 ff 3f 10 00 3f 00 10 fc fb 00 01 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e252/s7" : [
+			{
+				"EID:Slt" : "252:7",
+				"DID" : 0,
+				"State" : "Onln",
+				"DG" : 2,
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "HFS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s7 - Detailed Information" : {
+			"Drive /c0/e252/s7 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 37C (98.60 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e252/s7 Device attributes" : {
+				"SN" : "ASB1N5784I0201J2U",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "HFS3T8G3H2X069N",
+				"NAND Vendor" : "NA",
+				"WWN" : "5ace42e025477460",
+				"Firmware Revision" : "    DZ02",
+				"Raw size" : "3.492 TB [0x1bf1f72b0 Sectors]",
+				"Coerced size" : "3.492 TB [0x1bf0c0000 Sectors]",
+				"Non Coerced size" : "3.492 TB [0x1bf0f72b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "00 "
+			},
+			"Drive /c0/e252/s7 Policies/Settings" : {
+				"Drive position" : "DriveGroup:2, Span:0, Row:5",
+				"Enclosure position" : 0,
+				"Connected Port Number" : "12(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x3f4ee080352e3908"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 41 20 42 53 4e 31 37 35 34 38 30 49 30 32 4a 31 55 32 00 00 00 00 00 00 20 20 20 20 5a 44 32 30 46 48 33 53 38 54 33 47 32 48 30 58 39 36 20 4e 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 06 00 ff 3f 10 00 3f 00 10 fc fb 00 01 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e252/s8" : [
+			{
+				"EID:Slt" : "252:8",
+				"DID" : 1,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "HFS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s8 - Detailed Information" : {
+			"Drive /c0/e252/s8 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 38C (100.40 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e252/s8 Device attributes" : {
+				"SN" : "ASB1N5784I0201J3D",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "HFS3T8G3H2X069N",
+				"NAND Vendor" : "NA",
+				"WWN" : "5ace42e025477473",
+				"Firmware Revision" : "    DZ02",
+				"Raw size" : "3.492 TB [0x1bf1f72b0 Sectors]",
+				"Coerced size" : "3.492 TB [0x1bf0c0000 Sectors]",
+				"Non Coerced size" : "3.492 TB [0x1bf0f72b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "01 "
+			},
+			"Drive /c0/e252/s8 Policies/Settings" : {
+				"Drive position" : "DriveGroup:1, Span:0, Row:0",
+				"Enclosure position" : 0,
+				"Connected Port Number" : "0(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x3f4ee080352e3900"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 41 20 42 53 4e 31 37 35 34 38 30 49 30 32 4a 31 44 33 00 00 00 00 00 00 20 20 20 20 5a 44 32 30 46 48 33 53 38 54 33 47 32 48 30 58 39 36 20 4e 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 06 00 ff 3f 10 00 3f 00 10 fc fb 00 01 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e252/s9" : [
+			{
+				"EID:Slt" : "252:9",
+				"DID" : 9,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "HFS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s9 - Detailed Information" : {
+			"Drive /c0/e252/s9 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 36C (96.80 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e252/s9 Device attributes" : {
+				"SN" : "ASB1N5784I0201J2Y",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "HFS3T8G3H2X069N",
+				"NAND Vendor" : "NA",
+				"WWN" : "5ace42e025477464",
+				"Firmware Revision" : "    DZ02",
+				"Raw size" : "3.492 TB [0x1bf1f72b0 Sectors]",
+				"Coerced size" : "3.492 TB [0x1bf0c0000 Sectors]",
+				"Non Coerced size" : "3.492 TB [0x1bf0f72b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "01 "
+			},
+			"Drive /c0/e252/s9 Policies/Settings" : {
+				"Drive position" : "DriveGroup:1, Span:0, Row:1",
+				"Enclosure position" : 0,
+				"Connected Port Number" : "1(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x3f4ee080352e3901"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 41 20 42 53 4e 31 37 35 34 38 30 49 30 32 4a 31 59 32 00 00 00 00 00 00 20 20 20 20 5a 44 32 30 46 48 33 53 38 54 33 47 32 48 30 58 39 36 20 4e 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 06 00 ff 3f 10 00 3f 00 10 fc fb 00 01 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e252/s10" : [
+			{
+				"EID:Slt" : "252:10",
+				"DID" : 10,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "HFS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s10 - Detailed Information" : {
+			"Drive /c0/e252/s10 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 36C (96.80 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e252/s10 Device attributes" : {
+				"SN" : "ASB1N5784I0201J3A",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "HFS3T8G3H2X069N",
+				"NAND Vendor" : "NA",
+				"WWN" : "5ace42e025477470",
+				"Firmware Revision" : "    DZ02",
+				"Raw size" : "3.492 TB [0x1bf1f72b0 Sectors]",
+				"Coerced size" : "3.492 TB [0x1bf0c0000 Sectors]",
+				"Non Coerced size" : "3.492 TB [0x1bf0f72b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "01 "
+			},
+			"Drive /c0/e252/s10 Policies/Settings" : {
+				"Drive position" : "DriveGroup:1, Span:0, Row:2",
+				"Enclosure position" : 0,
+				"Connected Port Number" : "2(path1) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x0"
+					},
+					{
+						"Port" : 1,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x3f4ee080352e3902"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 41 20 42 53 4e 31 37 35 34 38 30 49 30 32 4a 31 41 33 00 00 00 00 00 00 20 20 20 20 5a 44 32 30 46 48 33 53 38 54 33 47 32 48 30 58 39 36 20 4e 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 06 00 ff 3f 10 00 3f 00 10 fc fb 00 01 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e252/s11" : [
+			{
+				"EID:Slt" : "252:11",
+				"DID" : 11,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "HFS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s11 - Detailed Information" : {
+			"Drive /c0/e252/s11 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 36C (96.80 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e252/s11 Device attributes" : {
+				"SN" : "ASB1N5784I0201J35",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "HFS3T8G3H2X069N",
+				"NAND Vendor" : "NA",
+				"WWN" : "5ace42e02547746b",
+				"Firmware Revision" : "    DZ02",
+				"Raw size" : "3.492 TB [0x1bf1f72b0 Sectors]",
+				"Coerced size" : "3.492 TB [0x1bf0c0000 Sectors]",
+				"Non Coerced size" : "3.492 TB [0x1bf0f72b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "01 "
+			},
+			"Drive /c0/e252/s11 Policies/Settings" : {
+				"Drive position" : "DriveGroup:1, Span:0, Row:3",
+				"Enclosure position" : 0,
+				"Connected Port Number" : "6(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x3f4ee080352e3903"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 41 20 42 53 4e 31 37 35 34 38 30 49 30 32 4a 31 35 33 00 00 00 00 00 00 20 20 20 20 5a 44 32 30 46 48 33 53 38 54 33 47 32 48 30 58 39 36 20 4e 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 06 00 ff 3f 10 00 3f 00 10 fc fb 00 01 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e252/s12" : [
+			{
+				"EID:Slt" : "252:12",
+				"DID" : 12,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "HFS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s12 - Detailed Information" : {
+			"Drive /c0/e252/s12 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 36C (96.80 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e252/s12 Device attributes" : {
+				"SN" : "ASB1N5784I0201J2V",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "HFS3T8G3H2X069N",
+				"NAND Vendor" : "NA",
+				"WWN" : "5ace42e025477461",
+				"Firmware Revision" : "    DZ02",
+				"Raw size" : "3.492 TB [0x1bf1f72b0 Sectors]",
+				"Coerced size" : "3.492 TB [0x1bf0c0000 Sectors]",
+				"Non Coerced size" : "3.492 TB [0x1bf0f72b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "01 "
+			},
+			"Drive /c0/e252/s12 Policies/Settings" : {
+				"Drive position" : "DriveGroup:1, Span:0, Row:4",
+				"Enclosure position" : 0,
+				"Connected Port Number" : "3(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x3f4ee080352e3904"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 41 20 42 53 4e 31 37 35 34 38 30 49 30 32 4a 31 56 32 00 00 00 00 00 00 20 20 20 20 5a 44 32 30 46 48 33 53 38 54 33 47 32 48 30 58 39 36 20 4e 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 06 00 ff 3f 10 00 3f 00 10 fc fb 00 01 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e252/s13" : [
+			{
+				"EID:Slt" : "252:13",
+				"DID" : 13,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "HFS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s13 - Detailed Information" : {
+			"Drive /c0/e252/s13 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 36C (96.80 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e252/s13 Device attributes" : {
+				"SN" : "ASB1N5784I0201J2N",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "HFS3T8G3H2X069N",
+				"NAND Vendor" : "NA",
+				"WWN" : "5ace42e025477459",
+				"Firmware Revision" : "    DZ02",
+				"Raw size" : "3.492 TB [0x1bf1f72b0 Sectors]",
+				"Coerced size" : "3.492 TB [0x1bf0c0000 Sectors]",
+				"Non Coerced size" : "3.492 TB [0x1bf0f72b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "01 "
+			},
+			"Drive /c0/e252/s13 Policies/Settings" : {
+				"Drive position" : "DriveGroup:1, Span:0, Row:5",
+				"Enclosure position" : 0,
+				"Connected Port Number" : "4(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x3f4ee080352e3905"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 41 20 42 53 4e 31 37 35 34 38 30 49 30 32 4a 31 4e 32 00 00 00 00 00 00 20 20 20 20 5a 44 32 30 46 48 33 53 38 54 33 47 32 48 30 58 39 36 20 4e 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 06 00 ff 3f 10 00 3f 00 10 fc fb 00 01 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e252/s14" : [
+			{
+				"EID:Slt" : "252:14",
+				"DID" : 14,
+				"State" : "GHS",
+				"DG" : "-",
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "HFS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s14 - Detailed Information" : {
+			"Drive /c0/e252/s14 State" : {
+				"Shield Counter" : 0,
+				"Media Error Count" : 0,
+				"Other Error Count" : 0,
+				"Drive Temperature" : " 32C (89.60 F)",
+				"Predictive Failure Count" : 0,
+				"S.M.A.R.T alert flagged by drive" : "No"
+			},
+			"Drive /c0/e252/s14 Device attributes" : {
+				"SN" : "ASB1N5784I0201J3C",
+				"Manufacturer Id" : "ATA     ",
+				"Model Number" : "HFS3T8G3H2X069N",
+				"NAND Vendor" : "NA",
+				"WWN" : "5ace42e025477472",
+				"Firmware Revision" : "    DZ02",
+				"Raw size" : "3.492 TB [0x1bf1f72b0 Sectors]",
+				"Coerced size" : "3.492 TB [0x1bf0c0000 Sectors]",
+				"Non Coerced size" : "3.492 TB [0x1bf0f72b0 Sectors]",
+				"Device Speed" : "6.0Gb/s",
+				"Link Speed" : "6.0Gb/s",
+				"NCQ setting" : "Enabled",
+				"Write Cache" : "Disabled",
+				"Logical Sector Size" : "512B",
+				"Physical Sector Size" : "4 KB",
+				"Connector Name" : "01 "
+			},
+			"Drive /c0/e252/s14 Policies/Settings" : {
+				"Enclosure position" : 0,
+				"Connected Port Number" : "5(path0) ",
+				"Sequence Number" : 2,
+				"Commissioned Spare" : "No",
+				"Emergency Spare" : "No",
+				"Last Predictive Failure Event Sequence Number" : 0,
+				"Successful diagnostics completion on" : "N/A",
+				"SED Capable" : "No",
+				"SED Enabled" : "No",
+				"Secured" : "No",
+				"Cryptographic Erase Capable" : "Yes",
+				"Locked" : "No",
+				"Needs EKM Attention" : "No",
+				"PI Eligible" : "No",
+				"Certified" : "Yes",
+				"Wide Port Capable" : "No",
+				"Port Information" : [
+					{
+						"Port" : 0,
+						"Status" : "Active",
+						"Linkspeed" : "6.0Gb/s",
+						"SAS address" : "0x3f4ee080352e3906"
+					}
+				]
+			},
+			"Inquiry Data" : "40 00 ff 3f 37 c8 10 00 00 00 00 00 3f 00 00 00 00 00 00 00 20 20 41 20 42 53 4e 31 37 35 34 38 30 49 30 32 4a 31 43 33 00 00 00 00 00 00 20 20 20 20 5a 44 32 30 46 48 33 53 38 54 33 47 32 48 30 58 39 36 20 4e 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 10 80 00 40 00 2f 00 40 00 00 00 00 06 00 ff 3f 10 00 3f 00 10 fc fb 00 01 bd ff ff ff 0f 00 00 07 00 "
+		},
+		"Drive /c0/e252/s14 Hot Spare Information" : {
+			"Type" : "Global Hot Spare",
+			"Enclosure Affinity" : "No",
+			"Revertible" : "Yes"
+		}
+	}
+}
+]
+}
+
