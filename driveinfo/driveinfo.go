@@ -6,6 +6,7 @@ import (
 	"context"
 	"encoding/json"
 	"log"
+	"os"
 	"os/exec"
 	"regexp"
 
@@ -16,12 +17,13 @@ import (
 var drivere = regexp.MustCompile(`^Drive (/\S+?/\S+?/\S+?)$`)
 var EIDSltre = regexp.MustCompile(`(\d+):(\d+)`)
 var PERCPATH = "/opt/nf-observability/bin/perccli64"
-var path string
+
+// var path string
 var err error
 
-func GenerateData(ctx context.Context, queryContext table.QueryContext) ([]map[string]string, error) {
+func GetConfig() (string, error) {
 	viper.AutomaticEnv()
-	path = viper.GetString("PERCPATH")
+	path := viper.GetString("PERCPATH")
 
 	if len(path) == 0 {
 		viper.SetConfigName("driveinfo")
@@ -37,26 +39,36 @@ func GenerateData(ctx context.Context, queryContext table.QueryContext) ([]map[s
 				}
 			} else {
 				log.Output(1, "Config file was found but another error was produced")
-				return nil, err
+				return "", err
 			}
 		}
 		if len(path) == 0 {
 			viper.SetDefault("PERCPATH", PERCPATH)
 			path = viper.GetString("PERCPATH")
-			log.Output(1, "Using built in default path: "+path)
+			log.Output(1, "Using path: "+path)
 		} else {
 			log.Output(1, "Using binary found in $PATH: "+path)
 		}
 	}
+	return path, nil
+}
 
-	var results []map[string]string
-
-	// Get a list and state of drives
-	jsondata, err := exec.Command(path, "/cALL/eALL/sALL", "show", "all", "j").Output()
-	if err != nil {
-		return nil, err
+func GetJson(path string) (jsondata []byte, err error) {
+	if path == "testing" {
+		jsondata, err = os.ReadFile("storcli.json")
+		if err != nil {
+			return nil, err
+		}
+	} else {
+		jsondata, err = exec.Command(path, "/cALL/eALL/sALL", "show", "all", "j").Output()
+		if err != nil {
+			return nil, err
+		}
 	}
+	return jsondata, nil
+}
 
+func GetData(jsondata []byte) (map[string]interface{}, error) {
 	var obj map[string]interface{}
 
 	err = json.Unmarshal([]byte(jsondata), &obj)
@@ -66,6 +78,10 @@ func GenerateData(ctx context.Context, queryContext table.QueryContext) ([]map[s
 
 	data := obj["Controllers"].([]interface{})[0].(map[string]interface{})["Response Data"].(map[string]interface{})
 
+	return data, nil
+}
+
+func GetDrives(data map[string]interface{}) (drives []map[string]string) {
 	for k, v := range data {
 		match := drivere.FindStringSubmatch(k)
 		if len(match) != 0 {
@@ -73,7 +89,7 @@ func GenerateData(ctx context.Context, queryContext table.QueryContext) ([]map[s
 			drivedetails := data["Drive "+match[1]+" - Detailed Information"]
 			drive.(map[string]interface{})["SN"] = drivedetails.(map[string]interface{})["Drive "+match[1]+" Device attributes"].(map[string]interface{})["SN"]
 			eidslt := EIDSltre.FindStringSubmatch(drive.(map[string]interface{})["EID:Slt"].(string))
-			results = append(results, map[string]string{
+			drives = append(drives, map[string]string{
 				"controller": "0",
 				"encloser":   eidslt[1],
 				"slot":       eidslt[2],
@@ -86,6 +102,27 @@ func GenerateData(ctx context.Context, queryContext table.QueryContext) ([]map[s
 			})
 		}
 	}
+	return drives
+}
 
-	return results, nil
+func GenerateData(ctx context.Context, queryContext table.QueryContext) ([]map[string]string, error) {
+	path, err := GetConfig()
+	if err != nil {
+		return nil, err
+	}
+
+	// Get a list and state of drives
+	jsondata, err := GetJson(path)
+	if err != nil {
+		return nil, err
+	}
+
+	data, err := GetData(jsondata)
+	if err != nil {
+		return nil, err
+	}
+
+	drives := GetDrives(data)
+
+	return drives, nil
 }
