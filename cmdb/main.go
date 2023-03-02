@@ -4,7 +4,6 @@ import (
 	"context"
 	"os"
 	"path"
-	"path/filepath"
 	"regexp"
 	"strings"
 
@@ -45,7 +44,7 @@ func GenerateData(ctx context.Context, queryContext table.QueryContext) ([]map[s
 			return nil, err
 		}
 
-		filePath, _ = filepath.Abs(strings.TrimSuffix(filepath.Base(exPath), path.Ext(exPath)) + ".dat")
+		filePath = strings.Replace(exPath, path.Ext(exPath), ".dat", 1)
 	}
 
 	result, err := parseFile(filePath)
