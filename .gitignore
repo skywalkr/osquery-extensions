@@ -6,6 +6,7 @@
 *.dll
 *.so
 *.dylib
+/osquery-extensions
 
 # Test binary, built with `go test -c`
 *.test

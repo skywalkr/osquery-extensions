@@ -1,0 +1,324 @@
+{
+"Controllers":[
+{
+	"Response Data" : {
+		"Drive /c0/e252/s0" : [
+			{
+				"EID:Slt" : "252:0",
+				"DID" : 2,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "446.625 GB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "TMS480G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s0 - Detailed Information" : {
+			"Drive /c0/e252/s0 Device attributes" : {
+				"SN" : "SNTEST1"
+			}
+		},
+		"Drive /c0/e252/s1" : [
+			{
+				"EID:Slt" : "252:1",
+				"DID" : 3,
+				"State" : "Onln",
+				"DG" : 0,
+				"Size" : "446.625 GB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "TMS480G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s1 - Detailed Information" : {
+			"Drive /c0/e252/s1 Device attributes" : {
+				"SN" : "SNTEST1"
+			}
+		},
+		"Drive /c0/e252/s2" : [
+			{
+				"EID:Slt" : "252:2",
+				"DID" : 4,
+				"State" : "Onln",
+				"DG" : 2,
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "TMS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s2 - Detailed Information" : {
+			"Drive /c0/e252/s2 Device attributes" : {
+				"SN" : "SNTEST1"
+			}
+		},
+		"Drive /c0/e252/s3" : [
+			{
+				"EID:Slt" : "252:3",
+				"DID" : 5,
+				"State" : "Onln",
+				"DG" : 2,
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "TMS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s3 - Detailed Information" : {
+			"Drive /c0/e252/s3 Device attributes" : {
+				"SN" : "SNTEST1"
+			}
+		},
+		"Drive /c0/e252/s4" : [
+			{
+				"EID:Slt" : "252:4",
+				"DID" : 8,
+				"State" : "Onln",
+				"DG" : 2,
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "TMS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s4 - Detailed Information" : {
+			"Drive /c0/e252/s4 Device attributes" : {
+				"SN" : "SNTEST1"
+			}
+		},
+		"Drive /c0/e252/s5" : [
+			{
+				"EID:Slt" : "252:5",
+				"DID" : 7,
+				"State" : "Onln",
+				"DG" : 2,
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "TMS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s5 - Detailed Information" : {
+			"Drive /c0/e252/s5 Device attributes" : {
+				"SN" : "SNTEST1"
+			}
+		},
+		"Drive /c0/e252/s6" : [
+			{
+				"EID:Slt" : "252:6",
+				"DID" : 6,
+				"State" : "Onln",
+				"DG" : 2,
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "TMS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s6 - Detailed Information" : {
+			"Drive /c0/e252/s6 Device attributes" : {
+				"SN" : "SNTEST1"
+			}
+		},
+		"Drive /c0/e252/s7" : [
+			{
+				"EID:Slt" : "252:7",
+				"DID" : 0,
+				"State" : "Onln",
+				"DG" : 2,
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "TMS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s7 - Detailed Information" : {
+			"Drive /c0/e252/s7 Device attributes" : {
+				"SN" : "SNTEST1"
+			}
+		},
+		"Drive /c0/e252/s8" : [
+			{
+				"EID:Slt" : "252:8",
+				"DID" : 1,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "TMS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s8 - Detailed Information" : {
+			"Drive /c0/e252/s8 Device attributes" : {
+				"SN" : "SNTEST1"
+			}
+		},
+		"Drive /c0/e252/s9" : [
+			{
+				"EID:Slt" : "252:9",
+				"DID" : 9,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "TMS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s9 - Detailed Information" : {
+			"Drive /c0/e252/s9 Device attributes" : {
+				"SN" : "SNTEST1"
+			}
+		},
+		"Drive /c0/e252/s10" : [
+			{
+				"EID:Slt" : "252:10",
+				"DID" : 10,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "TMS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s10 - Detailed Information" : {
+			"Drive /c0/e252/s10 Device attributes" : {
+				"SN" : "SNTEST1"
+			}
+		},
+		"Drive /c0/e252/s11" : [
+			{
+				"EID:Slt" : "252:11",
+				"DID" : 11,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "TMS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s11 - Detailed Information" : {
+			"Drive /c0/e252/s11 Device attributes" : {
+				"SN" : "SNTEST1"
+			}
+		},
+		"Drive /c0/e252/s12" : [
+			{
+				"EID:Slt" : "252:12",
+				"DID" : 12,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "TMS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s12 - Detailed Information" : {
+			"Drive /c0/e252/s12 Device attributes" : {
+				"SN" : "SNTEST1"
+			}
+		},
+		"Drive /c0/e252/s13" : [
+			{
+				"EID:Slt" : "252:13",
+				"DID" : 13,
+				"State" : "Onln",
+				"DG" : 1,
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "TMS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s13 - Detailed Information" : {
+			"Drive /c0/e252/s13 Device attributes" : {
+				"SN" : "SNTEST1"
+			}
+		},
+		"Drive /c0/e252/s14" : [
+			{
+				"EID:Slt" : "252:14",
+				"DID" : 14,
+				"State" : "GHS",
+				"DG" : "-",
+				"Size" : "3.492 TB",
+				"Intf" : "SATA",
+				"Med" : "SSD",
+				"SED" : "N",
+				"PI" : "N",
+				"SeSz" : "512B",
+				"Model" : "TMS3T8G3H2X069N",
+				"Sp" : "U"
+			}
+		],
+		"Drive /c0/e252/s14 - Detailed Information" : {
+			"Drive /c0/e252/s14 Device attributes" : {
+				"SN" : "SNTEST1"
+			}
+		}
+	}
+}
+]
+}
+
