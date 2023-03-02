@@ -4,6 +4,7 @@ import (
 	"context"
 	"os"
 	"path"
+	"path/filepath"
 	"regexp"
 	"strings"
 
@@ -12,6 +13,7 @@ import (
 
 var (
 	re = regexp.MustCompile(`(?m)^([_A-Z]+)=(.*)$`)
+	configPath = ""
 )
 
 func parseFile(filePath string) (map[string]string, error) {
@@ -32,6 +34,10 @@ func parseFile(filePath string) (map[string]string, error) {
 	return result, nil
 }
 
+func Initialize(configFile string) {
+	configPath = path.Dir(configFile)
+}
+
 func GenerateData(ctx context.Context, queryContext table.QueryContext) ([]map[string]string, error) {
 	var filePath string
 
@@ -44,7 +50,7 @@ func GenerateData(ctx context.Context, queryContext table.QueryContext) ([]map[s
 			return nil, err
 		}
 
-		filePath = strings.Replace(exPath, path.Ext(exPath), ".dat", 1)
+		filePath = path.Join(configPath, strings.TrimSuffix(filepath.Base(exPath), path.Ext(exPath)) + ".dat")
 	}
 
 	result, err := parseFile(filePath)

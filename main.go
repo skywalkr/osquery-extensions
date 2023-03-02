@@ -44,6 +44,9 @@ func main() {
 		log.Fatalf("Error creating extension: %s\n", err)
 	}
 
+	var addFlags = getOsqueryFlags(*socket)
+	cmdb.Initialize(addFlags[0]["value"])
+
 	server.RegisterPlugin(table.NewPlugin("ci_info", cmdb.TableColumns(), cmdb.GenerateData))
 	server.RegisterPlugin(table.NewPlugin("disk_information", driveinfo.TableColumns(), driveinfo.GenerateData))
 	server.RegisterPlugin(table.NewPlugin("virtual_machines", virtualization.TableColumns(), virtualization.GenerateData))
@@ -51,4 +54,24 @@ func main() {
 	if err := server.Run(); err != nil {
 		log.Fatalln(err)
 	}
+}
+
+func getOsqueryFlags(socket string) []map[string]string {
+	client, err := osquery.NewClient(socket, 1*time.Second)
+
+	if err != nil {
+		log.Fatalf("Error creating Thrift client: %v", err)
+	}
+
+	defer client.Close()
+
+	resp, err := client.Query("select * from osquery_flags where name in ('config_path');")
+	if err != nil {
+		log.Fatalf("Error communicating with osqueryd: %v", err)
+	}
+	if resp.Status.Code != 0 {
+		log.Fatalf("osqueryd returned error: %s", resp.Status.Message)
+	}
+
+	return resp.Response
 }
