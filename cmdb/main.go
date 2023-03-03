@@ -2,6 +2,7 @@ package cmdb
 
 import (
 	"context"
+	"log"
 	"os"
 	"path"
 	"path/filepath"
@@ -13,7 +14,7 @@ import (
 
 var (
 	re = regexp.MustCompile(`(?m)^([_A-Z]+)=(.*)$`)
-	configPath = ""
+	fp = ""
 )
 
 func parseFile(filePath string) (map[string]string, error) {
@@ -35,22 +36,22 @@ func parseFile(filePath string) (map[string]string, error) {
 }
 
 func Initialize(configFile string) {
-	configPath = path.Dir(configFile)
+	exPath, err := os.Executable()
+
+	if err != nil {
+		log.Fatalf("Error initializing CMDB plugin: %v", err)
+	}
+
+	fp = path.Join(path.Dir(configFile), strings.TrimSuffix(filepath.Base(exPath), path.Ext(exPath))+".dat")
 }
 
 func GenerateData(ctx context.Context, queryContext table.QueryContext) ([]map[string]string, error) {
 	var filePath string
 
-	if len(queryContext.Constraints["path"].Constraints) > 0 {
-		filePath = queryContext.Constraints["path"].Constraints[0].Expression
+	if len(queryContext.Constraints["path"].Constraints) == 0 {
+		filePath = fp
 	} else {
-		exPath, err := os.Executable()
-
-		if err != nil {
-			return nil, err
-		}
-
-		filePath = path.Join(configPath, strings.TrimSuffix(filepath.Base(exPath), path.Ext(exPath)) + ".dat")
+		filePath = queryContext.Constraints["path"].Constraints[0].Expression
 	}
 
 	result, err := parseFile(filePath)
