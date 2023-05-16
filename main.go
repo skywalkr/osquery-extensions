@@ -7,6 +7,7 @@ import (
 	"osquery-extensions/cmdb"
 	"osquery-extensions/driveinfo"
 	"osquery-extensions/virtualization"
+	"osquery-extensions/ipmi"
 	"time"
 
 	"github.com/osquery/osquery-go"
@@ -50,6 +51,7 @@ func main() {
 	server.RegisterPlugin(table.NewPlugin("ci_info", cmdb.TableColumns(), cmdb.GenerateData))
 	server.RegisterPlugin(table.NewPlugin("disk_information", driveinfo.TableColumns(), driveinfo.GenerateData))
 	server.RegisterPlugin(table.NewPlugin("virtual_machines", virtualization.TableColumns(), virtualization.GenerateData))
+	server.RegisterPlugin(table.NewPlugin("ipmi", ipmi.TableColumns(), ipmi.GenerateData))
 
 	if err := server.Run(); err != nil {
 		log.Fatalln(err)
