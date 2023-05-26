@@ -18,7 +18,7 @@ func GenerateData(ctx context.Context, queryContext table.QueryContext) ([]map[s
 		return nil, err
 	}
 
-	out, err := exec.Command(path, "get-vm | convertto-json").Output()
+	out, err := exec.Command(path, "ConvertTo-Json @(Get-VM)").Output()
 
 	if err != nil {
 		return nil, err
@@ -73,6 +73,6 @@ type VirtualMachine struct {
 	MemoryAssigned  int64
 	MemoryMinimum   int64
 	ProcessorCount  int
-	HardDrives      []string
-	NetworkAdapters []string
+	HardDrives      []interface{}
+	NetworkAdapters []interface{}
 }
