@@ -2,6 +2,7 @@ package cmdb
 
 import (
 	"context"
+	"fmt"
 	"osquery-extensions/config"
 
 	"github.com/osquery/osquery-go/plugin/table"
@@ -21,7 +22,8 @@ func GenerateData(ctx context.Context, queryContext table.QueryContext) ([]map[s
 	for key, val := range conf.CMDB {
 		switch val := val.(type) {
 		case string:
-			result[key] = val
+			s := fmt.Sprintf("cmdb_%s", key)
+			result[s] = val
 		}
 	}
 
@@ -32,7 +34,8 @@ func TableColumns() []table.ColumnDefinition {
 	var columns []table.ColumnDefinition
 
 	for key := range conf.CMDB {
-		columns = append(columns, table.TextColumn(key))
+		s := fmt.Sprintf("cmdb_%s", key)
+		columns = append(columns, table.TextColumn(s))
 	}
 
 	return columns
